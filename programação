@@ -1,0 +1,110 @@
+using System;
+
+namespace Trabalho_Quiz_Princesas_Da_Disney
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int pontuação = 0;
+            Console.WriteLine("Quiz Princesas da Disney");
+
+            Console.WriteLine("Por: Leticia Paschk Alves");
+
+            Console.WriteLine("Responda o quiz usando a letra maiuscula na palavra inicial, e após responder e saber seu resultado, aperte o botão enter para ver a proxima pergunta. MANDA BALA!");
+
+            Console.WriteLine("1 - Qual princesa se transformou em um sapo após beijar um?");
+            Console.WriteLine("A) Moana ");
+            Console.WriteLine("B) Jasmin ");
+            Console.WriteLine("C) Tiana ");
+            Console.WriteLine("D) Cinderela ");
+            Console.Write("RESPOSTA:");
+            string um = Console.ReadLine();
+            if (um == "Tiana")
+            {
+                pontuação++;
+                Console.WriteLine("Você acertou!");
+            }
+            else
+            {
+                Console.WriteLine("Eroooouuuu!!!");
+            }
+            Console.ReadLine();
+            Console.WriteLine("2 - Qual princesa tem sua Origem na China?");
+
+            Console.WriteLine("A) Branca de Neve ");
+            Console.WriteLine("B) Mulan ");
+            Console.WriteLine("C) Elza ");
+            Console.WriteLine("D) Tiana ");
+            Console.Write("RESPOSTA:");
+            string dois = Console.ReadLine();
+            if (dois == "Mulan")
+            {
+                pontuação++;
+                Console.WriteLine("Você acertou!");
+            }
+            else
+            {
+                Console.WriteLine("Eroooouuuu!!!");
+            }
+            Console.ReadLine();
+            Console.WriteLine("3 - Qual princesa foi levada por um principe em um tapete mágico?");
+
+            Console.WriteLine("A) Jasmin ");
+            Console.WriteLine("B) Merida ");
+            Console.WriteLine("C) Cinderela ");
+            Console.WriteLine("D) Ariel ");
+            Console.Write("RESPOSTA:");
+            string três = Console.ReadLine();
+            if (três == "Jasmin")
+            {
+                pontuação++;
+                Console.WriteLine("Você acertou!");
+            }
+            else
+            {
+                Console.WriteLine("Eroooouuuu!!!");
+            }
+            Console.ReadLine();
+            Console.WriteLine("4 - Que país se passa o filme Frozen ");
+
+            Console.WriteLine("A) Brasil ");
+            Console.WriteLine("B) China ");
+            Console.WriteLine("C) India ");
+            Console.WriteLine("D) Noruega ");
+            Console.Write("RESPOSTA:");
+            string quatro = Console.ReadLine();
+            if (quatro == "Noruega")
+            {
+                pontuação++; 
+                Console.WriteLine("Você acertou!");
+            }
+            else
+            {
+                Console.WriteLine("Eroooouuuu!!!");
+            }
+            Console.ReadLine();
+            Console.WriteLine("5 - Qual princesa encontra a casa dos anões?");
+
+            Console.WriteLine("A) Moana ");
+            Console.WriteLine("B) Branca de Neve ");
+            Console.WriteLine("C) Ariel ");
+            Console.WriteLine("D) Elza ");
+            Console.Write("RESPOSTA:");
+            string cinco = Console.ReadLine();
+            if (cinco == "Branca de Neve")
+            {
+                pontuação++;
+                Console.WriteLine("Você acertou!");
+            }
+            else
+            {
+                Console.WriteLine("Eroooouuuu!!!");
+            }
+            Console.WriteLine($"você acertou {pontuação} de 5");
+            Console.ReadLine();
+            Console.WriteLine("Valeeeeeu, se não chegou no resultado que queria, tente novamente ;P");
+
+        }
+    }
+}
